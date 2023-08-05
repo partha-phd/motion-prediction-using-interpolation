@@ -14,12 +14,12 @@ Below are the environment and the corresponding dependencies with which the code
 - We use the publicly available highway data for the validation of our proposed model
 - Download the publicly available highD dataset from [this link](https://www.highd-dataset.com)
 - Store the downloaded data with folder name "data" under the folder POG_DataGeneration
-- Run the script generateData.m to generate the augmented OGMs and the corresponding predicted OGMs
+- Run the script [generateData.m](POG_DataGeneration/generateData.m) to generate the augmented OGMs and the corresponding predicted OGMs
 
 ### Training
 - Our architecture comprises of two Variational AutoEncoders and set of Random Forests for the estimation of predicted OGMs
-- Run the script trainML.py under the folder "POG_Training" to train the model on the generated training data
+- Run the script [trainML.py](POG_Training/trainML.py) under the folder "POG_Training" to train the model on the generated training data
 
 ### Validation
-- Run the script validateML.py under the folder "POG_Validation" to validate the model on the generated test data
+- Run the script [validateML.py](POG_Validation/validateML.py) under the folder "POG_Validation" to validate the model on the generated test data
 
